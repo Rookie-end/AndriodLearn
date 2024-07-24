@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-24T12:05:09.568Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="O90xszGLaCGHlTQQj0a2" version="24.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-24T12:32:48.424Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Aa_udFwPbzNTZDhsCT01" version="24.7.3" type="github">
   <diagram name="第 1 页" id="NbrsP52cZE2BfqQrUnqM">
     <mxGraphModel dx="2663" dy="3346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,6 +60,9 @@
         </mxCell>
         <mxCell id="oFKlcFwJnzUMVpn3___l-7" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;应用层&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-580" y="1730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQED_TG4rCgJFdC-6Bi5-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oFKlcFwJnzUMVpn3___l-17" target="IQED_TG4rCgJFdC-6Bi5-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oFKlcFwJnzUMVpn3___l-17" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;组成、概念、功能&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-390" y="310" width="160" height="30" as="geometry" />
@@ -177,6 +180,9 @@
         </mxCell>
         <mxCell id="IQED_TG4rCgJFdC-6Bi5-28" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;可根据测试修改&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;获取到的时间&lt;/font&gt;&lt;/div&gt;&lt;font size=&quot;3&quot;&gt;GetReservationV2Rsp&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;.onlyForTest()&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-628" y="-448.31" width="215" height="98.88" as="geometry" />
+        </mxCell>
+        <mxCell id="IQED_TG4rCgJFdC-6Bi5-30" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;组成：资源子网、通信子网&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;概念：让我们实现信息、硬件、软件资源共享&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;功能：主要用作信息传递，&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="277.5" width="570" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
