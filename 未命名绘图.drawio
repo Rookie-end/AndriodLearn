@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="第 1 页" id="NbrsP52cZE2BfqQrUnqM">
-    <mxGraphModel dx="3675" dy="6917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4502" dy="6917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -268,156 +268,189 @@
         <mxCell id="pMwyegHGghXe2D6YZ9S4-21" value="使用（注意：子线程中给 LiveData 设置数据，一定要用 postValue 方法）：在 ModelView 中定义变量是 MutableLiveData&amp;lt;T&amp;gt;()，最关键的地方是：&lt;div&gt;viewModel.counter.observe(this, Observer { count -&amp;gt;&amp;nbsp;&lt;br&gt;infoText.text = count.toString()&lt;br&gt;})&lt;/div&gt;&lt;div&gt;这里通过 observe()方法来观察数据的变化&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-580.5" y="-1420" width="520.5" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3nrXswDY_JkYzaEPh0pO-1" target="3nrXswDY_JkYzaEPh0pO-3">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3nrXswDY_JkYzaEPh0pO-1" target="3nrXswDY_JkYzaEPh0pO-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;应用微端启动&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;应用微端启动&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1110" y="-3030" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-2" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-2" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1214.38" y="-2040" width="290" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3nrXswDY_JkYzaEPh0pO-3" target="3nrXswDY_JkYzaEPh0pO-5">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3nrXswDY_JkYzaEPh0pO-3" target="3nrXswDY_JkYzaEPh0pO-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;启动 MicroApplicatoin&lt;br&gt;执行 onCreate&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;初始化：doInit() -&amp;gt; doInnerInit()&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;启动 MicroApplicatoin&lt;br&gt;执行 onCreate&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;初始化：doInit() -&amp;gt; doInnerInit()&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1180" y="-2910" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3nrXswDY_JkYzaEPh0pO-5" target="3nrXswDY_JkYzaEPh0pO-7">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3nrXswDY_JkYzaEPh0pO-5" target="3nrXswDY_JkYzaEPh0pO-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1045" y="-2670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;启动主 Activity -&amp;gt; MainShellActivity&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;启动主 Activity -&amp;gt; MainShellActivity&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1214.3799999999999" y="-2790" width="338.75" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3nrXswDY_JkYzaEPh0pO-7" target="3nrXswDY_JkYzaEPh0pO-9">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3nrXswDY_JkYzaEPh0pO-7" target="3nrXswDY_JkYzaEPh0pO-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;开游戏预约大厅页面 Activity&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;SharedSubscriptionActivity&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;继承自：&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;SharedSubscriptionActivity&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;开游戏预约大厅页面 Activity&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;SharedSubscriptionActivity&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;继承自：&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;SharedSubscriptionActivity&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1210.63" y="-2660" width="331.25" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;初始化 view 和 viewModel&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;等各种组件&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;初始化 view 和 viewModel&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;等各种组件&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1180.6299999999999" y="-2520" width="271.26" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3nrXswDY_JkYzaEPh0pO-14" target="3nrXswDY_JkYzaEPh0pO-16">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3nrXswDY_JkYzaEPh0pO-14" target="3nrXswDY_JkYzaEPh0pO-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;原有请求协议&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;原有请求协议&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-260" y="-3100" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3nrXswDY_JkYzaEPh0pO-15" target="3nrXswDY_JkYzaEPh0pO-18">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3nrXswDY_JkYzaEPh0pO-15" target="3nrXswDY_JkYzaEPh0pO-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-15" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;新的请求协议&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-15" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;新的请求协议&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-260" y="-2962" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-16" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;每个阶段获取的首发信息是怎么样的？&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-16" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;每个阶段获取的首发信息是怎么样的？&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-45" y="-3120" width="345" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-18" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;现在的协议添加了状态，每个状态下的时间用来指示什么，是否会和原有的协议冲突&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-18" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;现在的协议添加了状态，每个状态下的时间用来指示什么，是否会和原有的协议冲突&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-45" y="-2982" width="375" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3nrXswDY_JkYzaEPh0pO-20" target="3nrXswDY_JkYzaEPh0pO-21">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3nrXswDY_JkYzaEPh0pO-20" target="3nrXswDY_JkYzaEPh0pO-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ViewModel 修改UI&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ViewModel 修改UI&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-260" y="-2780" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-21" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;SharedSubscriptionAcivity&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;MainSubscriptionViewModel&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;NativizeCountDownScene.kt&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-21" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;SharedSubscriptionAcivity&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;MainSubscriptionViewModel&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;NativizeCountDownScene.kt&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-20" y="-2828.75" width="235" height="157.5" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3nrXswDY_JkYzaEPh0pO-24" target="3nrXswDY_JkYzaEPh0pO-27">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3nrXswDY_JkYzaEPh0pO-24" target="3nrXswDY_JkYzaEPh0pO-27" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-250" y="-4175" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-24" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;微端启动&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-24" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;微端启动&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-450" y="-4205" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3nrXswDY_JkYzaEPh0pO-27" target="3nrXswDY_JkYzaEPh0pO-28">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3nrXswDY_JkYzaEPh0pO-27" target="3nrXswDY_JkYzaEPh0pO-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3nrXswDY_JkYzaEPh0pO-27" target="3nrXswDY_JkYzaEPh0pO-32">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3nrXswDY_JkYzaEPh0pO-27" target="3nrXswDY_JkYzaEPh0pO-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-27" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;主 application 中做初始化，&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;通过协议拉取下载时间&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-27" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;主 application 中做初始化，&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;通过协议拉取下载时间&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-247.5" y="-4215" width="237.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3nrXswDY_JkYzaEPh0pO-28" target="3nrXswDY_JkYzaEPh0pO-30">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3nrXswDY_JkYzaEPh0pO-28" target="3nrXswDY_JkYzaEPh0pO-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-28" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;下载是通过轮询，当获取到首发信息（保存在本地），&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;或者倒计时到时间，会直接开启下载（时间是通过原有协议获取的）&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-28" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;下载是通过轮询，当获取到首发信息（保存在本地），&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;或者倒计时到时间，会直接开启下载（时间是通过原有协议获取的）&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-397.65" y="-4440" width="537.81" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-30" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;保存在本地的这个信息是通过原有协议获取然后保存的&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-30" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;保存在本地的这个信息是通过原有协议获取然后保存的&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="250" y="-4456.25" width="180" height="102.5" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-32" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;微端将所有获取时间的都通过新协议来获取，&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;未上线&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;：时间为内测开始时间，非空，倒计时结束开始下载，UI 部分是否有别的设计？&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;内测期&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;：时间依然为内测开始时间，非空，这时候会直接开始下载，不倒计时；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;另外这个阶段需要有一个&lt;/span&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;内测结束时间，如果不确定则为 null，不为 null 则设置一个倒计时，倒计时结束启动内测转首发的功能，根据传过来的间隔做轮询，更新内测结束时间；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;预约期&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;：时间为 null，则时间不确定，所以不开启倒计时，不下载，UI 部分需要设计？&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;时间确定，不为 null，开启倒计时，倒计时结束开始下载，UI 有原来的部分；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;已上线&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;：时间为首发的时间，直接开始下载；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;已下线&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;：不下载&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-32" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;微端将所有获取时间的都通过新协议来获取，&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;未上线&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;：时间为内测开始时间，非空，倒计时结束开始下载，UI 部分是否有别的设计？&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;内测期&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;：时间依然为内测开始时间，非空，这时候会直接开始下载，不倒计时；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;另外这个阶段需要有一个&lt;/span&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;内测结束时间，如果不确定则为 null，不为 null 则设置一个倒计时，倒计时结束启动内测转首发的功能，根据传过来的间隔做轮询，更新内测结束时间；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;预约期&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;：时间为 null，则时间不确定，所以不开启倒计时，不下载，UI 部分需要设计？&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;时间确定，不为 null，开启倒计时，倒计时结束开始下载，UI 有原来的部分；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;已上线&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;：时间为首发的时间，直接开始下载；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;已下线&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;：不下载&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="-4300" width="760" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3nrXswDY_JkYzaEPh0pO-34" target="3nrXswDY_JkYzaEPh0pO-35">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3nrXswDY_JkYzaEPh0pO-34" target="3nrXswDY_JkYzaEPh0pO-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3nrXswDY_JkYzaEPh0pO-34" target="3nrXswDY_JkYzaEPh0pO-36">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3nrXswDY_JkYzaEPh0pO-34" target="3nrXswDY_JkYzaEPh0pO-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3nrXswDY_JkYzaEPh0pO-34" target="3nrXswDY_JkYzaEPh0pO-53">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3nrXswDY_JkYzaEPh0pO-34" target="3nrXswDY_JkYzaEPh0pO-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3nrXswDY_JkYzaEPh0pO-34" target="3nrXswDY_JkYzaEPh0pO-55">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3nrXswDY_JkYzaEPh0pO-34" target="3nrXswDY_JkYzaEPh0pO-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-34" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;TODO&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-34" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;TODO&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1850" y="-4276.25" width="140" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3nrXswDY_JkYzaEPh0pO-35" target="3nrXswDY_JkYzaEPh0pO-39">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3nrXswDY_JkYzaEPh0pO-35" target="3nrXswDY_JkYzaEPh0pO-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3nrXswDY_JkYzaEPh0pO-35" target="3nrXswDY_JkYzaEPh0pO-40">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3nrXswDY_JkYzaEPh0pO-35" target="3nrXswDY_JkYzaEPh0pO-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3nrXswDY_JkYzaEPh0pO-35" target="3nrXswDY_JkYzaEPh0pO-41">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3nrXswDY_JkYzaEPh0pO-35" target="3nrXswDY_JkYzaEPh0pO-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-35" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;首发倒计时&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-35" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;首发倒计时&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1630" y="-4434" width="140" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3nrXswDY_JkYzaEPh0pO-36" target="3nrXswDY_JkYzaEPh0pO-45">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3nrXswDY_JkYzaEPh0pO-36" target="3nrXswDY_JkYzaEPh0pO-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3nrXswDY_JkYzaEPh0pO-36" target="3nrXswDY_JkYzaEPh0pO-46">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3nrXswDY_JkYzaEPh0pO-36" target="3nrXswDY_JkYzaEPh0pO-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3nrXswDY_JkYzaEPh0pO-36" target="3nrXswDY_JkYzaEPh0pO-48">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3nrXswDY_JkYzaEPh0pO-36" target="3nrXswDY_JkYzaEPh0pO-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-36" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;开始下载包&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-36" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;开始下载包&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1630" y="-4046" width="140" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-39" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;找一下倒计时的位置&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-39" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;找一下倒计时的位置&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1420" y="-4550" width="190" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-40" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;倒计时实现的逻辑&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-40" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;倒计时实现的逻辑&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1420" y="-4434" width="190" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-41" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;倒计时达到的功能&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-41" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;倒计时达到的功能&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1420" y="-4325.87" width="190" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-45" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;开始下载的位置和逻辑&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-45" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;开始下载的位置和逻辑&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1387.5" y="-4160" width="185" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-46" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;开始下载和倒计时之间的联系&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-46" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;开始下载和倒计时之间的联系&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1387.5" y="-4046" width="250" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-48" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;开始下载需要的信息获取方式&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-48" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;开始下载需要的信息获取方式&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1387.5" y="-3930" width="250" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-53" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;后台协议轮询&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-53" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;后台协议轮询&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1630" y="-3750" width="230" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="3nrXswDY_JkYzaEPh0pO-55" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;轮询后根据需要实现的逻辑&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3nrXswDY_JkYzaEPh0pO-55" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;轮询后根据需要实现的逻辑&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1630" y="-3550" width="230" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Kh5wBk1vgQazo1T7qf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s2Kh5wBk1vgQazo1T7qf-1" target="s2Kh5wBk1vgQazo1T7qf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Kh5wBk1vgQazo1T7qf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s2Kh5wBk1vgQazo1T7qf-1" target="s2Kh5wBk1vgQazo1T7qf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Kh5wBk1vgQazo1T7qf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s2Kh5wBk1vgQazo1T7qf-1" target="s2Kh5wBk1vgQazo1T7qf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Kh5wBk1vgQazo1T7qf-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s2Kh5wBk1vgQazo1T7qf-1" target="s2Kh5wBk1vgQazo1T7qf-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Kh5wBk1vgQazo1T7qf-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s2Kh5wBk1vgQazo1T7qf-1" target="s2Kh5wBk1vgQazo1T7qf-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Kh5wBk1vgQazo1T7qf-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;UI 资源配置&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2770" y="-3660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Kh5wBk1vgQazo1T7qf-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;登录页面&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2520" y="-3856" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Kh5wBk1vgQazo1T7qf-5" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;订阅等字段&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2520" y="-3610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Kh5wBk1vgQazo1T7qf-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;预约页面&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2520" y="-3736" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Kh5wBk1vgQazo1T7qf-7" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;首发不确定&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2520" y="-3486" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Kh5wBk1vgQazo1T7qf-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;确定首发时间&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2520" y="-3360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
